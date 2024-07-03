@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Crypto Tracker',
+      title: 'Harga Crypto',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         textTheme: TextTheme(
@@ -58,7 +58,7 @@ class _CryptoHomePageState extends State<CryptoHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Data Harga Crypto - Meri Antika'),
+        title: Text('Data Harga Crypto'),
         actions: [
           IconButton(
             icon: Icon(Icons.refresh),
